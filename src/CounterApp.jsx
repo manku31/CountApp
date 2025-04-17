@@ -4,6 +4,8 @@ import Button from "./Button";
 export default function CounterApp() {
   const [count, setCount] = useState(0);
 
+  // flag = 1 means optimized functionadd
+  // flag = 0 means normal function
   const flag = 1;
 
   const handleIncrement = () => {
